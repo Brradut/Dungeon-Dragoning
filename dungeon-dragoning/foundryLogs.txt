@@ -1,0 +1,36 @@
+27342 AAAAAAA
+./startWorld.sh: line 3: 27342 Killed                  ./killfoundry.sh
+FoundryVTT | 2022-03-12 02:53:09 | [[32minfo[39m] Foundry Virtual Tabletop - Version 0.7.9
+FoundryVTT | 2022-03-12 02:53:09 | [[32minfo[39m] Running on Node.js - Version 14.17.0
+FoundryVTT | 2022-03-12 02:53:09 | [[32minfo[39m] Loading data from user directory - /home/dungeonmaster/foundry/foundrydata
+FoundryVTT | 2022-03-12 02:53:09 | [[32minfo[39m] Application Options:
+{
+  "port": 42069,
+  "upnp": true,
+  "fullscreen": false,
+  "hostname": null,
+  "routePrefix": null,
+  "sslCert": null,
+  "sslKey": null,
+  "awsConfig": null,
+  "dataPath": "/home/dungeonmaster/foundry/foundrydata",
+  "proxySSL": false,
+  "proxyPort": null,
+  "minifyStaticFiles": false,
+  "updateChannel": "release",
+  "language": "en.core",
+  "world": "ropal",
+  "serviceConfig": null,
+  "isElectron": false,
+  "isNode": true,
+  "isSSL": false,
+  "demo": false,
+  "noupdate": false,
+  "adminKey": "****************"
+}
+FoundryVTT | 2022-03-12 02:53:09 | [[32minfo[39m] License verification succeeded
+FoundryVTT | 2022-03-12 02:53:09 | [[32minfo[39m] Requesting UPnP port forwarding to destination 42069
+FoundryVTT | 2022-03-12 02:53:09 | [[32minfo[39m] Server started and listening on port 42069
+The WebRTC server was requested to start, but Foundry Virtual Tabletop is not running in SSL mode which is required.
+FoundryVTT | 2022-03-12 02:53:11 | [[32minfo[39m] Created client session 3tfyrt5hiy1l66hz4s6o3q9o
+./startWorld.sh: line 4: 27348 Killed                  node /home/dungeonmaster/foundry/foundryvtt/resources/app/main.js --world=$1 --dataPath=/home/dungeonmaster/foundry/foundrydata
